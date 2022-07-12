@@ -1,0 +1,403 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.main-page {
+    height: 100%;
+    width: 100%;
+    background-color: lightcoral;
+    position: relative;
+}
+
+.main-1 {
+    height: 50px;
+    width: 70px;
+    background-color: rgb(230, 145, 49);
+    top: 20px;
+    left: 20px;
+    position: absolute;
+}
+
+.main-2 {
+    height: 50px;
+    width: 70px;
+    background-color: brown;
+    top: 20px;
+    right: 20px;
+    position: absolute;
+}
+
+.main-3 {
+    height: 50px;
+    width: 70px;
+    background-color: rgb(14, 13, 13);
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+    z-index: 100;
+}
+
+
+/*second page*/
+
+.second-page {
+    /*background-color: lightgray;*/
+    height: 150%;
+    width: 100%;
+    position: relative;
+}
+
+.second-left {
+    background-color: chartreuse;
+    width: 30%;
+    height: 80%;
+    position: sticky;
+    top: 20px;
+    left: 0;
+    float: left;
+}
+
+.right-1 {
+    background-color: blue;
+    height: 90px;
+    width: 100px;
+    top: 50px;
+    margin: auto;
+    position: absolute;
+    left: calc(65% - 50px);
+}
+
+.right-2 {
+    background-color: rgb(189, 35, 112);
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 30%;
+    right: 30px;
+}
+
+.right3-1 {
+    background-color: rgb(165, 14, 14);
+    height: 90px;
+    width: 100px;
+    position: absolute;
+    left: 45%;
+    top: 60%;
+}
+
+.right3-2 {
+    background-color: rgb(165, 14, 14);
+    height: 90px;
+    width: 100px;
+    position: absolute;
+    left: 65%;
+    top: 60%;
+}
+
+.right3-3 {
+    background-color: rgb(165, 14, 14);
+    height: 90px;
+    width: 100px;
+    position: absolute;
+    left: 85%;
+    top: 60%;
+}
+
+.right-4 {
+    background-color: rgb(189, 35, 112);
+    height: 150px;
+    width: 200px;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+
+
+/*third page here*/
+
+.third-page {
+    height: 150%;
+    width: 100%;
+    position: relative;
+}
+
+.process {
+    background-color: rgb(105, 103, 76);
+    width: 30%;
+    height: 80%;
+    position: sticky;
+    top: 20px;
+    left: 0;
+    float: right;
+}
+
+.third-right2 {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 200px;
+    left: 30px;
+}
+
+.third-right3 {
+    background-color: green;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 700px;
+    right: 40%;
+}
+
+.third-right1 {
+    background-color: rgb(139, 139, 75);
+    height: 100px;
+    width: 100px;
+    top: 50px;
+    left: calc(35% - 50px);
+    position: absolute;
+}
+
+
+/*third page starts*/
+
+.service-page {
+    width: 100%;
+    height: 150%;
+    position: relative;
+}
+
+.service-line {
+    background-color: rgb(241, 228, 35);
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.service1 {
+    background-color: cyan;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 30px;
+    left: calc(65% - 50px);
+}
+
+.service2 {
+    height: 200px;
+    background-color: lightgray;
+    width: 700px;
+    position: absolute;
+    top: 200px;
+    right: 100px;
+}
+
+
+/*i wanted to use the dispaly property here and align items */
+
+.service2-1 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    float: left;
+    top: 50px;
+    left: 100px;
+    position: absolute;
+}
+
+.service2-2 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    top: 50px;
+    left: 300px;
+    position: absolute;
+}
+
+.service2-3 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+
+.service3 {
+    height: 200px;
+    background-color: lightgray;
+    width: 700px;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+
+.service3-1 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    float: left;
+    top: 50px;
+    left: 100px;
+    position: absolute;
+}
+
+.service3-2 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    top: 50px;
+    left: 300px;
+    position: absolute;
+}
+
+.service3-3 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+}
+
+.work-page {
+    height: 200%;
+    width: 100%;
+    position: relative;
+}
+
+.work-line {
+    background-color: rgb(38, 137, 194);
+    width: 30%;
+    height: 100%;
+    float: right;
+}
+
+.work-left {
+    background-color: rgb(78, 7, 7);
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 50px;
+    right: calc(65% - 35px);
+}
+
+.black-div {
+    height: 80%;
+    width: 60%;
+    top: 150px;
+    position: absolute;
+    left: 50px;
+}
+
+.black-divs1 {
+    height: 25%;
+    width: 100%;
+    background-color: rgb(211, 195, 195);
+}
+
+.black-divs1-1 {
+    height: 100%;
+    width: 49%;
+    background-color: black;
+    float: left;
+}
+
+.black-divs1-2 {
+    height: 100%;
+    width: 50%;
+    background-color: black;
+    float: right;
+}
+
+.black-divs2 {
+    background-color: black;
+    height: 25%;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.black-divs3 {
+    height: 49%;
+    width: 50%;
+    margin-top: 10px;
+    float: left;
+}
+
+.black-divs3-1 {
+    background-color: black;
+    height: 50%;
+    width: 100%;
+}
+
+.black-div3-2 {
+    height: 48%;
+    width: 100%;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.black-divs4 {
+    background-color: black;
+    height: 49%;
+    width: 49%;
+    margin-top: 10px;
+    float: right;
+}
+
+.last-page {
+    height: 150%;
+    width: 100%;
+}
+
+.last-top {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    background-color: chartreuse;
+    margin-top: 30px;
+}
+
+.red {
+    height: 80%;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.red1 {
+    width: 100%;
+    height: 90px;
+}
+
+.red1-1 {
+    height: 100%;
+    width: 49%;
+    background-color: brown;
+    float: left;
+}
+
+.red1-2 {
+    background-color: brown;
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+
+.red2 {
+    width: 100%;
+    height: 65%;
+    background-color: brown;
+    margin-top: 55px;
+}
+
+.red3 {
+    height: 90px;
+    width: 100%;
+    background-color: brown;
+    margin-top: 55px;
+}
